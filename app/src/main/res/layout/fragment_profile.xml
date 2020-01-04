@@ -3,6 +3,7 @@
     xmlns:aapp="http://schemas.android.com/apk/res-auto"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient_1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.ProfileFragment">
@@ -75,7 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="Welcome to Crime App!"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold"
         aapp:layout_constraintBottom_toTopOf="@+id/cardView"
         aapp:layout_constraintEnd_toEndOf="parent"

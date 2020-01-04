@@ -66,7 +66,7 @@ public class ReportFragment extends Fragment {
         hijacking.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view19) {
-                reportHijacking();
+               // reportHijacking();
                 MapFragment mapFragment = new MapFragment();
                 FragmentManager manager = ReportFragment.this.getFragmentManager();
                 if (manager != null) {
@@ -82,7 +82,7 @@ public class ReportFragment extends Fragment {
         mugging.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view12) {
-                reportMugging();
+          //      reportMugging();
                 MapFragment mapFragment = new MapFragment();
                 FragmentManager manager = ReportFragment.this.getFragmentManager();
                 if (manager != null) {
@@ -96,7 +96,7 @@ public class ReportFragment extends Fragment {
         stabbing.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view16) {
-                reportStabbing();
+           //     reportStabbing();
                 MapFragment mapFragment = new MapFragment();
                 FragmentManager manager = ReportFragment.this.getFragmentManager();
                 if (manager != null) {
@@ -110,7 +110,7 @@ public class ReportFragment extends Fragment {
         shooting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view15) {
-                reportShooting();
+          //      reportShooting();
                 MapFragment mapFragment = new MapFragment();
                 FragmentManager manager = ReportFragment.this.getFragmentManager();
                 if (manager != null) {
@@ -123,7 +123,7 @@ public class ReportFragment extends Fragment {
         kidnapping.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view14) {
-                reportKidnapping();
+              //  reportKidnapping();
                 MapFragment mapFragment = new MapFragment();
                 FragmentManager manager = ReportFragment.this.getFragmentManager();
                 if (manager != null) {
@@ -136,7 +136,7 @@ public class ReportFragment extends Fragment {
         sexualAssault.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view13) {
-                reportSexualAssault();
+             //   reportSexualAssault();
                 MapFragment mapFragment = new MapFragment();
                 FragmentManager manager = ReportFragment.this.getFragmentManager();
                 if (manager != null) {

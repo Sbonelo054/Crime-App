@@ -78,7 +78,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
                    }else if(location==null){
 
                    }
-                   return false;
+                   return true;
                }
 
                @Override
@@ -90,8 +90,12 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
            if (supportMapFragment != null) {
                supportMapFragment.getMapAsync(this);
 
-               ActivityCompat.requestPermissions(requireNonNull(getActivity()), new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, PackageManager.PERMISSION_GRANTED);
-               ActivityCompat.requestPermissions(getActivity(), new String[]{Manifest.permission.ACCESS_COARSE_LOCATION}, PackageManager.PERMISSION_GRANTED);
+               ActivityCompat.requestPermissions(requireNonNull(getActivity()),
+                       new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
+                       PackageManager.PERMISSION_GRANTED);
+               ActivityCompat.requestPermissions(getActivity(),
+                       new String[]{Manifest.permission.ACCESS_COARSE_LOCATION},
+                       PackageManager.PERMISSION_GRANTED);
 
            }
        }
